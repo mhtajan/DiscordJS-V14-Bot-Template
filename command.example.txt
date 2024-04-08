@@ -7,7 +7,8 @@ module.exports = {
     structure: {
         name: '',
         description: '',
-        aliases: ['']
+        aliases: [],
+        permissions: null
     },
     /**
      * @param {ExtendedClient} client 
@@ -44,7 +45,7 @@ const ExtendedClient = require('../../../class/ExtendedClient');
 
 module.exports = {
     structure: new ContextMenuCommandBuilder()
-        .setName('Test User command')
+        .setName('')
         .setType(2),
     /**
      * @param {ExtendedClient} client 
@@ -62,7 +63,7 @@ const ExtendedClient = require('../../../class/ExtendedClient');
 
 module.exports = {
     structure: new ContextMenuCommandBuilder()
-        .setName('Test Message command')
+        .setName('')
         .setType(3),
     /**
      * @param {ExtendedClient} client 
